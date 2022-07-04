@@ -25,7 +25,7 @@ function identifier(ident) {
   } if (somerId === true) {
     return ('This is a id');
   } if (somerId === false && somerName === false) {
-    throw  new  Error('Informações inválidas');
+    throw new Error('Informações inválidas');
   }
 }
 
